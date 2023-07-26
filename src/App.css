@@ -1,0 +1,50 @@
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,select{
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  margin: 0.2rem;
+}
+
+button
+{
+  padding: 4px 0.7rem;
+  font-size: 1.3rem;
+}
+.container
+{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1180px;
+  flex-direction: column;
+  min-height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.card
+{
+  border:solid 2px black;
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.heading
+{
+  margin: 10px;
+}
+
+.row
+{
+  margin: 1rem 0;
+}
